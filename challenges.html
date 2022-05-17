@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges - Dark Souls 2 : Scholar of the First Sin - No-Death Run</title>
+    <link rel="stylesheet" href="css/default.css">
+</head>
+
+<body>
+    <div id="lettersize">
+        <button type="button" onclick="display()" name="btn1">
+            A
+        </button>
+
+        <button type="button" onclick="displayBigger()" name="btn2">
+            A+
+        </button>
+    </div>
+    <header>
+        <nav id="jumptocontent">
+            <h2 class="hidden">Navigate on the page</h2>
+            <a href="#content">Jump to content</a>
+        </nav>
+        <div id="menu">
+            <h1>Challenges</h1>
+            <h2 class="hidden">Menu</h2>
+        </div>
+        <nav id="mainmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <a target="_blank" href="Pictures/riskyroute.jpg">
+            <img id="riskyroute" src="Pictures/riskyroute.jpg" alt="Risky Route"></a>
+        <p>If you're interested in challenging yourself even more, you could try completing both no-death and no-bonfire
+            runs at the same time. This saves you time if you want both rings, but it is very challenging.
+            You could also speed up your no-death run by doing a certain tricky jump: it would save you a lot of time,
+            but
+            you would have to restart if you fail.
+            The jump is worth the risk, since it's very early in the game and you won't lose too much if you need to
+            restart.
+            To set up the jump, you first need to talk to Crestfallen Sulden in Majula and join the Way of the Blue
+            covenant. This gives you the Blue Seal, which is a ring that increases your maximum health points by 3%.
+            You then need to go to Heide's Tower of Flame and just run to the boss arena. You can make the boss fall
+            into
+            the water by waiting for it to take 7 steps and then quickly running to the other end of the ring. This gets
+            you
+            enough souls to increase your character's Vigor to 15, which gives your character 1068 health points.
+            Lastly, you need to get to the Cardinal Tower, past the Forest of Fallen Giants, to get the Life Ring from a
+            chest behind a hidden door. This raises your maximum health points by 5%.
+            The two rings and your 15 Vigor should put your character at 1155 health points, which is enough to survive
+            the
+            jump.
+            You now need to go through the door behind the Cardinal Tower bonfire, where you will see a ledge. Drop down
+            on
+            the platform below and take care of the 2 monsters waiting there. Go right and keep going until you reach
+            the
+            edge of the platform. You should now remove your character's armours and weapons, but not the rings, because
+            weight increases fall damage.
+            From the edges of the platform, go backwards until your back is against a pillar. You then face the hill in
+            front of you with the camera, run up to the edge and jump by keeping the jump button pressed for one or two
+            seconds.
+            This jump lets you skip the entirety of the Lost Bastille.
+            Below are videos showing you how to make the boss fall into the water and do the tricky jump.</p>
+        <br>
+        <section>
+            <h3>Video showing how to make the boss fall into water:</h3>
+            <video src="Videos/BossWater.mp4" poster="Pictures/posterboss.png" controls></video>
+            <h3>Video showing how to do the tricky jump:</h3>
+            <video id="jump" src="Videos/TrickyJump.mp4" poster="Pictures/posterjump.png" controls></video>
+        </section>
+        <script>
+            function display() {
+                document.getElementById("content").style.fontSize = "1em";
+            }
+            function displayBigger() {
+                document.getElementById("content").style.fontSize = "2em";
+            }
+        </script>
+    </main>
+    <footer>
+        <p>Made by: Karsai István</p>
+    </footer>
+</body>
+
+</html>
